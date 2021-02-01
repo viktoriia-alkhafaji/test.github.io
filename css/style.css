@@ -1,0 +1,280 @@
+body { padding-top: 78px; }
+
+.upper-case {
+    text-transform:uppercase;
+}
+
+.red {
+    color: red;
+}
+
+.grey-line {
+    background:#f5f5f5;
+    padding: 8px;
+}
+
+/* ------------site header----------  */
+
+
+.site-header .main-logo-img {
+    display: inline-block;
+    background-image: url(../images/main-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 78px;
+    width: 150px;
+}
+
+.site-header .main-logo h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -15px;
+}
+
+.site-header .main-nav {
+    height: 78px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu>li>a {
+    font-size: 20px;
+    font-family: inherit;
+    color: inherit;
+}
+
+.dropdown-menu>li>a:hover {
+background-color: rgb(72, 146, 180);
+color: #ffffff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgb(224, 238, 245);
+}
+
+.main-nav .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.main-nav .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgb(224, 238, 245);
+}
+
+.block-adv {
+    background-image: url(../images/evakuator-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50% ;
+    padding: 50px 0;
+    margin: 40px 0;
+    border-bottom: 1px solid rgb(126, 105, 105);
+}
+
+.block-adv h2 {
+    margin-bottom: 30px;
+}
+
+.block-adv ul {
+    margin: 50px 0;
+}
+
+.block-adv ul li {
+    margin: 2% 0;
+    font-size: 20px;
+}
+
+.block-adv ul li span {
+    color: red;
+}
+
+/* ---------- evacuator-card------------ */
+
+.evacuator-card {
+    border: 1px solid #ececec;
+    margin-bottom: 30px;
+}
+
+.evacuator-card img {
+    max-width: 100%;
+}
+
+.evacuator-card h3 {
+    text-align: center;
+    margin: 20px 0px;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+}
+
+.evacuator-card .description {
+    padding: 20px;
+}
+
+.evacuator-card .description ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.evacuator-card .description ul li label {
+    display: inline-block;
+    width: 70%;
+}
+
+.evacuator-card .description ul li span {
+    color: rgb(98, 98, 98);
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.btn-phone {
+    color: red;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+
+/* -------- map ------------- */
+
+.map {
+    background: #f5f5f5;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+.map iframe {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* ------------ econom-card ------------- */
+.economim {
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+.econom-card {
+    margin: 30px 0;
+}
+
+.econom-card .econom-logo {
+    font-size: 36px;
+    color: rgb(197, 47, 47);;
+}
+
+/* --------------zakaz------------------ */
+
+.zakaz {
+    margin: 40px 0;
+    padding: 30px 0;
+    background: #f5f5f5;
+}
+
+
+/* -----------seo-block ---------------- */
+
+.seo-block {
+    background: #f5f5f5;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+/* ---------------site-footer ------------ */
+
+.site-footer{
+    background: #f5f5f5;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul label {
+    width: 30%;
+    display: inline-block;
+}
+
+.footer-contact ul a {
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+}
+
+
+    .vertical-nav {
+        display: none;
+    }
+
+
+/* --------------------mobile 768px ----------------- */
+
+@media screen and (max-width:768px) {
+
+    body { padding-top: 0; }
+
+    .horisontal-nav {
+        display: none;
+    }
+
+    .vertical-nav {
+        display: block;
+        text-align: center;
+    }
+
+    .vertical-nav ul li {
+        font-size: 24px;;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 5px 10px;
+    }
+
+    .block-adv {
+        background-image: none;
+    }
+
+    .block-adv-truck-img {
+        height: 200px;
+        background-image: url(../images/evakuator-1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50%  100%;
+        margin: 30px 0;
+    }
+
+    .block-adv {
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .block-adv h2 {
+        text-align: center;
+    }
+
+    .block-adv ul {
+        margin: 30px 0;
+        text-align: center;
+        padding-left: 0px;
+        list-style: none;
+    }
+}
+
+
+
+   
