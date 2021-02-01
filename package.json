@@ -1,0 +1,24 @@
+{
+  "name": "truck",
+  "version": "1.0.0",
+  "description": "a project with responsive web-page using bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Abschleppwagen (Tow truck homepage)"
+  },
+  "keywords": [
+    "npm",
+    "truck",
+    "js",
+    "bootstrap"
+  ],
+  "author": "viktoriia alkhafaji",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
